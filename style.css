@@ -1,0 +1,26 @@
+sup{
+    margin: 0 2px;
+}
+.basketpage{
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    overflow-y: scroll;
+}
+
+.bphead i:hover{
+cursor: pointer;
+color: red;
+}
+.bphead *{
+padding: 10px 10px;
+}
+
+.fa-solid:hover{
+color: red;
+cursor: pointer;
+}
